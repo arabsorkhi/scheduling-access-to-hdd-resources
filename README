@@ -1,0 +1,10 @@
+Simulation of disk access planning algorithms.
+- 'Disk' in our case is a linearly ordered sequence of blocks from 1 to MAX.
+- The criterion for evaluating the algorithms will be the sum of the displacements of the disk head, as is known, proportional to the time of execution of orders.
+1.Check the FCFS, SSTF, SCAN and C-SCAN algorithms.
+2. Then assume that there are also real-time applications in the system that must be handled with EDF and / or FD-SCAN. How does this affect the results?
+ATTENTION!
+It is up to you to formulate simulation conditions not listed above. I mean:
+-the size of the 'disk' (number of blocks)
+-number and method of generating tickets (full queue from the beginning? tickets in progress? distribution of tickets - even, different?
+- how to handle real-time requests
